@@ -1,0 +1,170 @@
+h1 {
+    color: #DD5555;
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+h3 {
+    color: #6fbb8c;
+    font-size: 12px;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #EBEBEB;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #7d7d7d;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+  color: #b01633;
+  text-decoration: underline;
+}
+
+div {
+    display: block;
+}
+
+p {
+    text-align: justify;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+table {
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    font-variant: normal;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+.btn-red {
+    background-color: #DD5555;
+    color: white;
+    font-weight: 500;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.btn-red:hover {
+    background-color: #C61414;
+    color: white;
+}
+
+.btn-green {
+    background-color: #6fbb8c;
+    color: white;
+    font-weight: 500;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.btn-green:hover {
+    background-color: #199647;
+    color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#img-profile {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #cccccc;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+#recipes {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+#recipes img {
+    width: 90px;
+}
+
+.recipep {
+  margin-left: 10px
+
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
